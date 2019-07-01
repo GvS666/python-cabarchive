@@ -110,7 +110,7 @@ class CabArchive(object):
         filename = ''
         for i in range(0, 255):
             filename_c = self._buf_file[offset + i]
-            if filename_c == b'\0':
+            if filename_c == 0:
                 break
             filename += filename_c
 
