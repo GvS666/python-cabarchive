@@ -22,13 +22,13 @@ See also: https://msdn.microsoft.com/en-us/library/bb417343.aspx
 
 setup(
     name='cabarchive',
-    version='0.1.1',
+    version='0.1.2',
     license='LGPL-2.1-or-later',
     description='A pure-python library for creating and extracting cab files',
     long_description=long_desc,
     author='Richard Hughes',
     author_email='richard@hughsie.com',
-    url='https://github.com/hughsie/python-cabarchive',
+    url='https://github.com/GvS666/python-cabarchive',
     packages=['cabarchive', ],
     include_package_data=True,
     zip_safe=False,
